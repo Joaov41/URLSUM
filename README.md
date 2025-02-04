@@ -1,5 +1,8 @@
 # SwiftUI macOS Application - This is an extremely light and fast  webview that summarizes all URL's with Q&A capabilities.
-It has dedicated code for reddit ur'ss, in that case, the app will extract all comments and make it abailable for summarization and Q&A
+It has dedicated code for reddit url's, in that case, the app will extract all comments and make it abailable for summarization and Q&A
+
+![CleanShot 2025-02-04 at 13 21 48@2x](https://github.com/user-attachments/assets/3000ee64-3e6a-4926-a7a4-9dbdaa0d8615)
+
 
 ## Overview
 This is a macOS application built with SwiftUI, leveraging various frameworks including Combine, WebKit, SwiftSoup, and AppKit. The application appears to involve window manipulation using `NSViewRepresentable`, indicating potential integration of web content or advanced UI customization.
