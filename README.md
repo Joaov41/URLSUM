@@ -7,13 +7,14 @@ It has dedicated code for reddit url's, in that case, the app will extract all c
 
 
 ## Overview
-This is a macOS application built with SwiftUI, leveraging various frameworks including Combine, WebKit, SwiftSoup, and AppKit. The application appears to involve window manipulation using `NSViewRepresentable`, indicating potential integration of web content or advanced UI customization.
+This is a macOS application built with SwiftUI, leveraging various frameworks including Combine, WebKit, SwiftSoup, and AppKit.
 
 ## Features
 - Utilizes SwiftUI for a modern, declarative UI.
 - Integrates with `WebKit` for web content rendering.
 - Parses HTML content using `SwiftSoup`.
 - Manages macOS windows using `AppKit`.
+- There is also an IOS version available.
 
 ## Requirements
 - macOS 12.0 or later
@@ -35,7 +36,6 @@ This is a macOS application built with SwiftUI, leveraging various frameworks in
    - Press `Cmd + R` to run.
 
 ## Usage
-- Open the application and interact with the UI.
 - Insert youyr Gemini key here
 
   let geminiService = GeminiService(apiKey: "YOUR API KEY")
