@@ -1,20 +1,21 @@
 # URLSum 5.0
 
-A powerful cross-platform SwiftUI application for iOS and macOS that extracts, summarizes, and provides interactive Q&A for web content using AI.
+A lightweight cross-platform SwiftUI application for IpadOS and macOS that extracts, summarizes, and provides interactive Q&A for web content using Gemini or Apple's models ( local and cloud) 
 
-## Features
+# Features
 
-### 🌐 Web Content Processing
+### Web Content Processing
 - **Universal Web Loading**: Load and display any web page in an integrated WebView
 - **Smart Content Extraction**: Automatically extract meaningful content from web pages
 - **Reddit Integration**: Special handling for Reddit posts with full comment extraction including nested threads
 
-### 🤖 AI-Powered Summarization
+### AI-Powered Summarization
 - **Google Gemini Integration**: Powered by Google's Gemini 2.5 Flash model for fast, accurate summaries
+- **Option to use Apple local foundation model and also Apple's cloud model through the use of the SHortcuts app, since that cloud model is not available on the SDK
 - **Context-Aware Summaries**: Different summarization approaches for Reddit vs. general web content
 - **Interactive Q&A**: Ask questions about loaded content and get AI-powered answers
 
-### 🎙️ Text-to-Speech (TTS)
+### Text-to-Speech (TTS)
 - **Dual TTS Support**: 
   - OpenAI TTS API for high-quality voice synthesis
   - System voices including premium iOS voices (Ava, Zoe, etc.)
@@ -22,7 +23,7 @@ A powerful cross-platform SwiftUI application for iOS and macOS that extracts, s
 - **Audio Caching**: Efficient caching system for OpenAI TTS audio files
 - **Playback Controls**: Full playback control with pause, resume, and progress tracking
 
-### 🎨 User Experience
+### User Experience
 - **Dark Mode**: Full dark mode support with system integration
 - **Adjustable Font Sizes**: Customizable font sizing (10-24pt) affecting both UI and WebView content
 - **Cross-Platform**: Native SwiftUI implementation for both iOS and macOS
@@ -38,10 +39,13 @@ A powerful cross-platform SwiftUI application for iOS and macOS that extracts, s
 ## Installation
 
 ### Prerequisites
-- **Xcode 15.0+** (for building and running)
-- **iOS 16.0+** or **macOS 13.0+**
+- **Xcode 26 beta +** (for building and running)
+- **iOS 26 beta  **macOS Tahoe beta**
 - **Google Gemini API Key** (required)
+- ** To use Apple cloud model, it is rerquired to have this shortcut installed https://www.icloud.com/shortcuts/c968c84b2853425198c90f6a52e8a424
+- On MAcOS shortucts app is running on the backgroud hrough its cli, so invisible ot user but on IpadOS it must open the SHortucts app while running the query t the model, there is no way around it. 
 - **OpenAI API Key** (optional, for enhanced TTS)
+
 
 ### Building from Source
 
