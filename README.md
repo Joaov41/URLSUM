@@ -1,6 +1,9 @@
 # URLSum 5.0
 
-A lightweight cross-platform SwiftUI application for IpadOS and macOS that extracts, summarizes, and provides interactive Q&A for web content using Gemini or Apple's models ( local and cloud) 
+A lightweight cross-platform SwiftUI application for IpadOS and macOS that extracts, summarizes, and provides interactive Q&A for web content using Gemini or Apple's models ( local and cloud)
+
+![CleanShot 2025-08-14 at 12 55 13@2x](https://github.com/user-attachments/assets/62c75f8f-6dab-4940-953d-663538794190)
+
 
 # Features
 
